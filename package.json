@@ -1,0 +1,24 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Thoughtjumper compute engine and backend server.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/index.js",
+    "start-dev": "nodemon ./src/index.js"
+  },
+  "author": "Edvanta Technologies",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "helmet": "^4.4.1",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.22.0",
+    "nodemon": "^2.0.7"
+  }
+}
